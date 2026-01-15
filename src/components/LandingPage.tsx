@@ -334,10 +334,10 @@ export function LandingPage({
                     setIsHovered(false);
                     setRotations(0);
                   }}
-                  className={`rounded-2xl p-6 md:p-10 border transition-all
+                  className={`rounded-2xl p-6 md:p-10 border backdrop-blur-sm transition-all
                     ${isDark
-                      ? "border-white/10 hover:border-white/30"
-                      : "border-black/10 hover:border-black/30"}
+                      ? "border-white/10 bg-white/5 hover:border-white/30"
+                      : "border-black/10 bg-black/5 hover:border-black/30"}
                   `}
                 >
                   <div
