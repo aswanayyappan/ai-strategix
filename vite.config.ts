@@ -51,14 +51,11 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: 'build',
-  },
-  server: {
-    port: 3000,
-    open: true,
-  },
+    outDir: 'dist',
+  }
+  ,
   preview: {
     host: true,
-    allowedHosts: true,
+    allowedHosts: 'all',
   },
 });
